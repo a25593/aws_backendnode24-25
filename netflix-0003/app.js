@@ -3,8 +3,8 @@ const app = express();
 const PORT = process.env.PORT || 3002;
 
 
-app.get("/api", (req, res) => {
-  res.send("Bienvenido a la app de e-commerce");
+app.get("/compras", (req, res) => {
+  res.send("Bienvenido a compras");
 });
 
 
