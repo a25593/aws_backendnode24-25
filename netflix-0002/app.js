@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 
 app.get("/api", (req, res) => {
-  res.send("Bienvenido a la app de e-commerce");
+  res.send("Bienvenido pedidos");
 });
 
 
